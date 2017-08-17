@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/index_tex_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="课程修改"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="课程名称"
+        android:textSize="18sp"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/hd_main_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:hint="语文"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="上课时间"
+        android:textSize="18sp"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/hd_main_time"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:hint="10:00-11:00"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/hd_main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="login"
+        android:text="保存"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+</LinearLayout>

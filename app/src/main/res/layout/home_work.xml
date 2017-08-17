@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="作业上传"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/work_edit"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/edit_border"
+        android:layout_margin="20dp"
+        android:hint="请在此输入作业内容"
+        android:gravity="top"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/work_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/blue_btn"
+        android:text="提交作业"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+</LinearLayout>

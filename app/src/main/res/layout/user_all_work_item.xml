@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_work_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/user_work_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center_horizontal"
+        android:lines="1"
+        android:text="java基础"
+        android:textColor="#111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:lines="1"
+        android:id="@+id/user_work_res"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="未批改"
+        android:textColor="@color/colorAccent" />
+</LinearLayout>
